@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "git@github.com:tamouse/split_app.git",
   "author": "Tamara Temple <tamouse@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "start": "foreman start -p 3000",
+    "test": "npm run server:test && npm run client:test",
+    "server:test": "(cd server && bin/rake)",
+    "client:test": "(cd client && npm test)"
+  }
 }
