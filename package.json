@@ -1,0 +1,9 @@
+{
+  "name": "split_app",
+  "version": "1.0.0",
+  "description": "Try out a repo with a split api and client in subdirs",
+  "main": "index.js",
+  "repository": "git@github.com:tamouse/split_app.git",
+  "author": "Tamara Temple <tamouse@gmail.com>",
+  "license": "MIT"
+}
